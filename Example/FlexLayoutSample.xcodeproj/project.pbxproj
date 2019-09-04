@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2245F067A40DB6A13F97F202 /* Pods_FlexLayoutSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82FCE524E22C2FF5BC4DFBAB /* Pods_FlexLayoutSample.framework */; };
 		242AECE31FA011630024E7C2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242AECDF1FA011630024E7C2 /* BaseViewController.swift */; };
 		242AECE41FA011630024E7C2 /* BasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242AECE01FA011630024E7C2 /* BasicView.swift */; };
 		242AECE51FA011630024E7C2 /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242AECE11FA011630024E7C2 /* Stylesheet.swift */; };
@@ -44,6 +43,7 @@
 		DF1F2A1A1F17D11700BA1B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249EFE491E64FAFE00165E39 /* Assets.xcassets */; };
 		DF91747F1F1F6F9A0034632D /* YogaExampleAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91747D1F1F6F9A0034632D /* YogaExampleAView.swift */; };
 		DF9174801F1F6F9A0034632D /* YogaExampleAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91747E1F1F6F9A0034632D /* YogaExampleAViewController.swift */; };
+		E1DB22BD4D8FBE41F97DF78A /* Pods_FlexLayoutSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52329CBE2CBB093FCFCA237E /* Pods_FlexLayoutSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -94,8 +94,12 @@
 		24FB883C1F59CA8B00615D33 /* TableViewExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExampleViewController.swift; sourceTree = "<group>"; };
 		24FB883F1F59CA9A00615D33 /* MethodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodCell.swift; sourceTree = "<group>"; };
 		24FB88401F59CA9A00615D33 /* MethodGroupHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodGroupHeader.swift; sourceTree = "<group>"; };
-		82FCE524E22C2FF5BC4DFBAB /* Pods_FlexLayoutSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexLayoutSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36281AE5C9D3D2E659081D38 /* Pods-Share-FlexLayoutSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Share-FlexLayoutSample.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Share-FlexLayoutSample/Pods-Share-FlexLayoutSample.debug.xcconfig"; sourceTree = "<group>"; };
+		52329CBE2CBB093FCFCA237E /* Pods_FlexLayoutSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexLayoutSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8561ACDBCFFA1B4B9ABEAB16 /* Pods-FlexLayoutSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexLayoutSample.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-FlexLayoutSample/Pods-FlexLayoutSample.debug.xcconfig"; sourceTree = "<group>"; };
+		964C6561EB7384C4CDA837B6 /* Pods-Share-FlexLayoutSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Share-FlexLayoutSample.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Share-FlexLayoutSample/Pods-Share-FlexLayoutSample.release.xcconfig"; sourceTree = "<group>"; };
+		B89461EDF85CBC0122B2D9D5 /* Pods-Shared-FlexLayoutSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-FlexLayoutSample.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Shared-FlexLayoutSample/Pods-Shared-FlexLayoutSample.release.xcconfig"; sourceTree = "<group>"; };
+		C89FABA97AF944C83E59B590 /* Pods-Shared-FlexLayoutSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-FlexLayoutSample.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Shared-FlexLayoutSample/Pods-Shared-FlexLayoutSample.debug.xcconfig"; sourceTree = "<group>"; };
 		DF0E85291F1F749C00AB1956 /* YogaExampleBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YogaExampleBView.swift; sourceTree = "<group>"; };
 		DF0E852A1F1F749C00AB1956 /* YogaExampleBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YogaExampleBViewController.swift; sourceTree = "<group>"; };
 		DF1F2A221F17D11700BA1B97 /* FlexLayoutSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexLayoutSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2245F067A40DB6A13F97F202 /* Pods_FlexLayoutSample.framework in Frameworks */,
+				E1DB22BD4D8FBE41F97DF78A /* Pods_FlexLayoutSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +310,7 @@
 		461884C59B72ACEAFC912B8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				82FCE524E22C2FF5BC4DFBAB /* Pods_FlexLayoutSample.framework */,
+				52329CBE2CBB093FCFCA237E /* Pods_FlexLayoutSample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -316,6 +320,10 @@
 			children = (
 				8561ACDBCFFA1B4B9ABEAB16 /* Pods-FlexLayoutSample.debug.xcconfig */,
 				0D0595B5E0950936D037ECF2 /* Pods-FlexLayoutSample.release.xcconfig */,
+				36281AE5C9D3D2E659081D38 /* Pods-Share-FlexLayoutSample.debug.xcconfig */,
+				964C6561EB7384C4CDA837B6 /* Pods-Share-FlexLayoutSample.release.xcconfig */,
+				C89FABA97AF944C83E59B590 /* Pods-Shared-FlexLayoutSample.debug.xcconfig */,
+				B89461EDF85CBC0122B2D9D5 /* Pods-Shared-FlexLayoutSample.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -435,11 +443,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FlexLayoutSample/Pods-FlexLayoutSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/YogaKit/YogaKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FlexLayout/FlexLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/PinLayout/PinLayout.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YogaKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlexLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinLayout.framework",
 			);

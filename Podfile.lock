@@ -1,9 +1,13 @@
 PODS:
-  - FlexLayout (1.3.16)
-  - Nimble (8.0.1)
-  - PinLayout (1.8.7)
+  - FlexLayout (1.3.16):
+    - YogaKit
+  - Nimble (8.0.2)
+  - PinLayout (1.8.9)
   - Quick (2.1.0)
-  - SwiftLint (0.33.0)
+  - SwiftLint (0.35.0)
+  - Yoga (1.14.0)
+  - YogaKit (1.14.0):
+    - Yoga (~> 1.14)
 
 DEPENDENCIES:
   - FlexLayout (from `./`)
@@ -11,6 +15,7 @@ DEPENDENCIES:
   - PinLayout
   - Quick
   - SwiftLint
+  - YogaKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -18,18 +23,22 @@ SPEC REPOS:
     - PinLayout
     - Quick
     - SwiftLint
+    - Yoga
+    - YogaKit
 
 EXTERNAL SOURCES:
   FlexLayout:
     :path: "./"
 
 SPEC CHECKSUMS:
-  FlexLayout: 2c9f7724c5218eb2f23c734dc4343141815a1681
-  Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
-  PinLayout: a0722a5c8f0e0168a9c091ffe4930dabf0c8582c
+  FlexLayout: e75fc98a95463bbeeafb3e25d747e5c68ebe7259
+  Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
+  PinLayout: f7237c104696f409470947fee3ac82e239cac367
   Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
-  SwiftLint: fed9c66336e41fc74dc48a73678380718f0c8b0e
+  SwiftLint: 5553187048b900c91aa03552807681bb6b027846
+  Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
+  YogaKit: 5d1dc899cecd5946e5a758a0c3997704a4b48d01
 
-PODFILE CHECKSUM: 9c74b444ce1d9b0b90a0d90a353efb1f26fd93e2
+PODFILE CHECKSUM: ef145daafd60391f575ec0400ffe1df22bf88cf2
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.7.4
